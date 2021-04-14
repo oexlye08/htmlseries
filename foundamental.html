@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- SELECTOR -->
+    <style>
+        /* ketika menggunakan id. maka untuk penamaan menggunakan # */
+        #internalcss{
+            background: blueviolet;
+            color:darkslategray;
+            padding: 10px;
+        }
+        /* ketika menggunakan id. maka untuk penamaan menggunakan . */
+        .container{
+            background: darkgreen;
+            color: cornflowerblue;
+            padding: 10px;
+        }
+
+        .blue{
+            background: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- inline CSS -->
+    <div style="color:beige; background-color: black;">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus possimus iusto placeat at ratione maxime!
+    </div>
+
+    <!-- internal css using id-->
+    <div id="internalcss">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam, natus?
+    </div>
+    
+    <!-- internal css using class-->
+    <div class="container">
+        <h1>Lorem, ipsum dolor.</h1>
+    </div>
+    
+    <div class="container blue">
+        <h3>Lorem, ipsum dolor.</h3>
+    </div>
+</body>
+</html>
